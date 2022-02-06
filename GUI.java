@@ -6,13 +6,11 @@ public class GUI implements ActionListener {
     private JFrame frame;
     private JPanel panel;
     private JTextField textfield;
-    private int x;
-    private int y;
+    private int x, y, count;
     private JLabel label;
     private JButton submit;
     private JLabel correct = new JLabel("");
     private JLabel streak = new JLabel("");
-    private int count;
 
     public GUI() {
         frame = new JFrame();
